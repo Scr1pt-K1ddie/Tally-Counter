@@ -1,0 +1,60 @@
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-area {
+    background-color: lightblue;
+    border-radius: 15px;
+    padding: 40px;
+    min-width: 150px;
+    height: 15px;
+    font-family: 'Roboto';
+    font-weight: bold;
+    text-align: center;
+}
+
+.btn1 {
+    background-color: lightblue;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    border: 5px darkblue solid;
+    border-radius: 35px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.btn2 {
+    background-color: lightblue;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    border: 5px darkblue solid;
+    border-radius: 35px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.resetBtn {
+    background-color: lightblue;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    border: 5px darkblue solid;
+    border-radius: 35px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+@media (max-width: 450px) {
+    .flex-container {
+        flex-direction: column;
+    }
+}

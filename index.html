@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Tally Counter</title>
+
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body onload="getFromLocalStorage()" style="background-color: black;" style="font-family: roboto;">
+
+    <br>
+    <div class="flex-container">
+        <div class="main-area" id="main_area"> 0 </div>
+        <br>
+        <button class="btn1" onclick="plusFunc()"> + </button>
+        <br>
+        <button class="btn2" onclick="minusFunc()"> - </button>
+        <br>
+        <button class="resetBtn" onclick="resetFunc()"> reset </button>
+
+        <script src="mainFunction.js"></script>
+        <script src="localStorage.js"></script>
+    </div>
+</body>
+
+</html>
